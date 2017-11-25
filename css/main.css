@@ -1,0 +1,48 @@
+body {
+
+    /*
+    display: flex;
+    flex-direction: column-reverse; */
+}
+
+header {
+    background-color: #313131;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+h1 {
+    padding-top: 10%;
+    letter-spacing: 3px;
+    font-size: 1.7rem;
+}
+
+#headshot {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+header p {
+    font-size: 1.1rem;
+    padding-top: 5%;
+}
+
+aside {
+    background-color: #28868e;
+    width: 100%;
+}
+h2 {
+    background-color: #28868e;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.bold {
+    font-weight: bold;
+}
