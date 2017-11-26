@@ -353,3 +353,14 @@ h3 {
     }
 
 }
+
+/*** MEDIA QUERY 1500PX DESKTOP ***/
+@media (min-width: 1500px) {
+    aside {
+        top: 883px;
+    }
+
+    #interest {
+        margin-top: 5.5%;
+    }
+}
