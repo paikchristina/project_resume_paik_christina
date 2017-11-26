@@ -64,9 +64,10 @@ p {
 
 .interests {
     width: 30%;
-    margin: 0 auto;
+    margin: 8auto;
     display: block;
     padding-bottom: 10%;
+    margin-top: 5%;
 }
 
 .nobullets {
@@ -103,4 +104,7 @@ li {
 
 .extra {
     padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #313131;
+    margin-top: 5%;
 }
