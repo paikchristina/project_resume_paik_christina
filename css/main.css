@@ -99,6 +99,7 @@ li {
     padding-bottom: 5%;
     background-color: #313131;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 /* Interest Icons */
@@ -114,4 +115,12 @@ li {
 h3 {
 	text-align: center;
 	padding-bottom: 10%;
+}
+
+/*** MEDIA QUERY 500PX ***/
+@media (min-width: 500px) {
+
+    li {
+        width: 95%;
+    }
 }
