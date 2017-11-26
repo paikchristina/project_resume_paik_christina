@@ -265,3 +265,69 @@ h3 {
     }
 
 }
+
+/*** MEDIA QUERY 1300PX DESKTOP ***/
+@media (min-width: 1300px) {
+
+    body {
+        flex-direction: row-reverse;
+        width: 90%;
+        margin: auto;
+    }
+
+    main {
+        width: 70%;
+    }
+
+    aside {
+        max-width: 30%;
+        position: absolute;
+        top: 865px;
+    }
+
+    h1 {
+        margin-top: 0;
+    }
+
+    #education {
+        width: 70%;
+    }
+
+    .resumecontent {
+        width: 70%;
+    }
+
+    #experience {
+        width: 70%;
+    }
+
+    h2 {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    #skills {
+        line-height: normal;
+        margin-top: 0;
+    }
+
+    .bar {
+        margin-right: 1%;
+        width: 40%;
+    }
+
+    .bold2 {
+        margin-top: 12%;
+        margin-bottom: 10%;
+    }
+
+    #interest {
+        margin-top: 4.5%;
+        line-height: normal;
+    }
+
+    .resumecontent {
+        width: 40%;
+        margin-left: 10%;
+    }
+}
