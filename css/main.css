@@ -190,6 +190,9 @@ h3 {
 /*** MEDIA QUERY 800PX ***/
 @media (min-width: 800px) {
 
+    .resumecontent {
+        margin-left: 10%;
+    }
 }
 
 /*** MEDIA QUERY 900PX ***/
