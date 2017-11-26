@@ -8,12 +8,17 @@ body {
     color: #313131;
 }
 
+main {
+    background-color: #fff;
+}
+
 header {
     background-color: #313131;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     padding-bottom: 10%;
+    z-index: -1;
 }
 
 h1 {
@@ -33,7 +38,7 @@ h1 {
     padding-top: 5%;
 }
 
-aside {
+#more {
     background-color: #28868e;
     width: 100%;
 }
@@ -103,6 +108,10 @@ li {
     background-color: #313131;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+#contact2 {
+    display: none;
 }
 
 /* Interest Icons */
@@ -200,7 +209,7 @@ h3 {
         flex-direction: row;
     }
 
-    aside {
+    #more {
         width: 30%;
         flex: 1;
     }
@@ -279,7 +288,7 @@ h3 {
         width: 70%;
     }
 
-    aside {
+    #more {
         max-width: 30%;
         position: absolute;
         top: 865px;
@@ -344,7 +353,7 @@ h3 {
         padding-bottom: 5%;
     }
 
-    aside {
+    #more {
         top: 831px;
     }
 
@@ -352,54 +361,87 @@ h3 {
         margin-top: 5%;
     }
 
+    .interests {
+        margin-bottom: 0.5%;
+    }
+
 }
 
 /*** MEDIA QUERY 1500PX DESKTOP ***/
 @media (min-width: 1500px) {
-    aside {
+    #more {
         top: 883px;
     }
 
     #interest {
         margin-top: 5.5%;
     }
+
+    main {
+        padding-bottom: 1%;
+    }
 }
 
 
 /*** MEDIA QUERY 1600PX DESKTOP ***/
 @media (min-width: 1600px) {
-    aside {
-        top: 935px;
+    #more {
+        top: 433px;
     }
 
     #interest {
         margin-top: 6%;
     }
-}
-
-
-/*** MEDIA QUERY 1700PX DESKTOP ***/
-@media (min-width: 1700px) {
-    aside {
-        top: 752px;
-    }
-
-    #interest {
-        margin-top: 7.5%;
-    }
 
     header {
-        padding-bottom: 5%;
-        margin-bottom: 0%;
+        padding-bottom: 8%;
+        padding-top: 8%;
     }
 
     #headshot {
-        width: 10%;
+        width: 15%;
+        margin-left: 10%;
+        margin-top: 3%;
+        position: absolute;
+        top: 0;
+        right: 200px;
     }
 
     #contact {
+        display: none;
+    }
+
+    #contact2 {
+        display: inherit;
+        text-align: left;
+        padding-left: 20%;
+    }
+
+    h1 {
+        font-size: 4rem;
         padding-top: 0%;
-        text-align: center;
-        padding-left: 5%;
+        text-align: left;
+        padding-left: 20%;
+    }
+
+    main {
+        padding-bottom: 2%;
+    }
+
+}
+
+/*** MEDIA QUERY 1700PX DESKTOP ***/
+@media (min-width: 1700px) {
+
+    #more {
+        top: 494px;
+    }
+
+    #interest {
+        margin-top: 7%;
+    }
+
+    main {
+        padding-bottom: 4.2%;
     }
 }
