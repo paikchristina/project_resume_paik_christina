@@ -364,3 +364,15 @@ h3 {
         margin-top: 5.5%;
     }
 }
+
+
+/*** MEDIA QUERY 1600PX DESKTOP ***/
+@media (min-width: 1600px) {
+    aside {
+        top: 935px;
+    }
+
+    #interest {
+        margin-top: 6%;
+    }
+}
