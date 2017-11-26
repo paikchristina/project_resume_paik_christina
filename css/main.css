@@ -132,3 +132,15 @@ h3 {
         width: 40%;
     }
 }
+
+/*** MEDIA QUERY 600PX ***/
+@media (min-width: 600px) {
+
+    .interests {
+        width: 25%;
+    }
+
+    .resumecontent {
+        margin-left: 10%;
+    }
+}
