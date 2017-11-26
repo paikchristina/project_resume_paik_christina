@@ -123,4 +123,12 @@ h3 {
     li {
         width: 95%;
     }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    #headshot {
+        width: 40%;
+    }
 }
