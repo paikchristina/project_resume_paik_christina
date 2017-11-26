@@ -62,14 +62,6 @@ p {
     padding-left: 10%;
 }
 
-.interests {
-    width: 30%;
-    margin: 8auto;
-    display: block;
-    padding-bottom: 10%;
-    margin-top: 5%;
-}
-
 .nobullets {
     list-style-type: none;
 }
@@ -107,4 +99,19 @@ li {
     padding-bottom: 5%;
     background-color: #313131;
     margin-top: 5%;
+}
+
+/* Interest Icons */
+
+.interests {
+    width: 30%;
+    margin: auto;
+    display: block;
+    padding-bottom: 3%;
+    margin-top: 5%;
+}
+
+h3 {
+	text-align: center;
+	padding-bottom: 10%;
 }
