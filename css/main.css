@@ -376,3 +376,30 @@ h3 {
         margin-top: 6%;
     }
 }
+
+
+/*** MEDIA QUERY 1700PX DESKTOP ***/
+@media (min-width: 1700px) {
+    aside {
+        top: 752px;
+    }
+
+    #interest {
+        margin-top: 7.5%;
+    }
+
+    header {
+        padding-bottom: 5%;
+        margin-bottom: 0%;
+    }
+
+    #headshot {
+        width: 10%;
+    }
+
+    #contact {
+        padding-top: 0%;
+        text-align: center;
+        padding-left: 5%;
+    }
+}
