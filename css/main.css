@@ -40,6 +40,7 @@ aside {
     background-color: #28868e;
     width: 100%;
 }
+
 h2 {
     background-color: #28868e;
     text-align: center;
@@ -49,7 +50,12 @@ h2 {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
 .bold {
+    font-weight: bold;
+}
+
+.bold2 {
     font-weight: bold;
 }
 
@@ -103,7 +109,6 @@ li {
 }
 
 /* Interest Icons */
-
 .interests {
     width: 30%;
     margin: auto;
@@ -113,8 +118,8 @@ li {
 }
 
 h3 {
-	text-align: center;
-	padding-bottom: 10%;
+    text-align: center;
+    padding-bottom: 10%;
 }
 
 /*** MEDIA QUERY 500PX ***/
@@ -143,4 +148,61 @@ h3 {
     .resumecontent {
         margin-left: 10%;
     }
+}
+
+/*** MEDIA QUERY 700PX ***/
+@media (min-width: 700px) {
+
+    #headshot {
+        width: 30%;
+    }
+
+    h1 {
+        font-size: 2.7rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .resumecontent {
+        margin-left: 15%;
+    }
+
+    .interests {
+        width: 20%;
+    }
+
+    .bold2 {
+        font-size: 1.4rem;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 1%;
+    }
+
+    .bar {
+        width: 43%;
+        margin-right: 10%;
+        padding-bottom: 2%;
+    }
+}
+
+/*** MEDIA QUERY 800PX ***/
+@media (min-width: 800px) {
+
+}
+
+/*** MEDIA QUERY 900PX ***/
+@media (min-width: 900px) {
+
+}
+
+/*** MEDIA QUERY 700PX ***/
+@media (min-width: 700px) {
+
+}
+
+/*** MEDIA QUERY 700PX ***/
+@media (min-width: 700px) {
+
 }
