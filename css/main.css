@@ -331,3 +331,25 @@ h3 {
         margin-left: 10%;
     }
 }
+
+/*** MEDIA QUERY 1400PX DESKTOP ***/
+@media (min-width: 1400px) {
+
+    #headshot {
+        width: 25%;
+        margin-top: 5%;
+    }
+
+    header {
+        padding-bottom: 5%;
+    }
+
+    aside {
+        top: 831px;
+    }
+
+    #interest {
+        margin-top: 5%;
+    }
+
+}
