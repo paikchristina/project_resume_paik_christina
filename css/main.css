@@ -192,7 +192,7 @@ h3 {
     }
 }
 
-/*** MEDIA QUERY 900PX TABLE DEVICES ***/
+/*** MEDIA QUERY 900PX TABLET DEVICES ***/
 @media (min-width: 900px) {
 
     body {
@@ -237,9 +237,15 @@ h3 {
     }
 }
 
-/*** MEDIA QUERY 700PX ***/
-@media (min-width: 700px) {
+/*** MEDIA QUERY 1000PX ***/
+@media (min-width: 1000px) {
+    #skills {
+        margin-top: 6%;
+    }
 
+    #interest {
+        margin-top: 1%;
+    }
 }
 
 /*** MEDIA QUERY 700PX ***/
