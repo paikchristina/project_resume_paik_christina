@@ -93,3 +93,14 @@ li {
 #education {
     margin-top: 5%;
 }
+
+.bar {
+    display: inline;
+    width: 50%;
+    position: absolute;
+    right: 10%;
+}
+
+.extra {
+    padding-top: 5%;
+}
