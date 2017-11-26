@@ -114,6 +114,10 @@ li {
     display: none;
 }
 
+.styled {
+    color: #fff;
+}
+
 /* Interest Icons */
 .interests {
     width: 30%;
